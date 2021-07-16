@@ -1,0 +1,1 @@
+export type Color = "basic" | "enterprise" | "standard";
