@@ -15,5 +15,6 @@
   small {
     font-family: Rubik;
     font-size: 26px;
+    margin-right: -12px;
   }
 </style>
