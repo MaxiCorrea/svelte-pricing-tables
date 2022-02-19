@@ -7,8 +7,7 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d public/build"
+    "deploy": "npm run build && node ./scripts/gh-pages.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
